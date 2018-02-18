@@ -103,7 +103,7 @@ exports.toPinyin = function toPinyin(str) {
         let word = py[i];
         for(let j = 0; word && j < word.length; j++){
             PY = PY + word[j];
-            if(i != PY.length){
+            if(j !== word.length && i !== str.length - 1){
                 PY = PY + ' ';
             }
         }
