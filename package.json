@@ -1,0 +1,48 @@
+{
+  "name": "vukoa-util",
+  "version": "0.0.1",
+  "description": "The util module is improve more methods to check type for node, extend core-util-isfor node, extend core-util-is",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "async-validator": "^1.8.2",
+    "core-util-is": "^1.0.2",
+    "is-class": "0.0.4",
+    "isstream": "^0.1.2",
+    "pinyin": "^2.8.3"
+  },
+  "devDependencies": {
+    "autod": "^2.9.0",
+    "beautify-benchmark": "^0.2.4",
+    "benchmark": "^2.1.4",
+    "contributors": "*",
+    "long": "^3.2.0",
+    "mocha": "^3.5.0",
+    "nyc": "^11.1.0",
+    "semver": "^5.4.1"
+  },
+  "scripts": {
+    "test": "nyc mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vusion/vukoa-util.git"
+  },
+  "keywords": [
+    "util",
+    "typeof",
+    "what",
+    "pinyin",
+    "type",
+    "check"
+  ],
+  "author": "lgfshr@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vusion/vukoa-util/issues"
+  },
+  "homepage": "https://github.com/vusion/vukoa-util#readme"
+}
