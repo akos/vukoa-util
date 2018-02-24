@@ -1,7 +1,7 @@
 {
   "name": "vukoa-util",
   "version": "0.1.2",
-  "description": "The util module is improve more methods to check type for node, extend core-util-isfor node, extend core-util-is",
+  "description": "The util module is improve more methods to check type for node, extend core-util-is for node, extend core-util-is",
   "main": "index.js",
   "directories": {
     "lib": "lib",
