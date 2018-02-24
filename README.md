@@ -1,6 +1,5 @@
 # vukoa-util
-The `util` module is improve more methods to check type for node, extend core-util-is for node, extend core-util-is
-
+The util module is improve more methods to check type and some assist methods for nodeJs 
 dependencies:
 
 - [core-util-is](https://github.com/isaacs/core-util-is)
