@@ -1,6 +1,6 @@
 {
   "name": "vukoa-util",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "The util module is improve more methods to check type and some assist methods for nodeJs ",
   "main": "index.js",
   "directories": {
