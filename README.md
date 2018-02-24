@@ -29,6 +29,7 @@ util.toPinyin('测试数据'); //=> ce shi shu ju
 ## API
 
 ## var util = require('vukoa-util');
+## var what = util.isWhat;
 
 #### util.toPinyin('测试数据'');//ce shi shu ju
 #### util.pinyin();
@@ -36,7 +37,7 @@ util.toPinyin('测试数据'); //=> ce shi shu ju
 #### util.transferEmptyObjToNull();
 #### util.validate(params, rules)//use async-validator，return promise
 
-#### var what = util.isWhat;
+
 #### what.isArray(arr);
 #### what.isAsyncFunction(async);
 #### what.isBoolean(bool);
