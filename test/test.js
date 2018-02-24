@@ -113,13 +113,13 @@ describe('isWhat', () => {
         if (semver.gt(process.version.substring(1), '4.0.0')){
             it('should true', () => {
                 class Foo{};
-                assert(what.class(Foo) === true);
+                assert(what.isClass(Foo) === true);
             });
 
             it('should false', () => {
                 function Bar(){};
-                assert(what.class(Bar) === false);
-                assert(what.class({}) === false);
+                assert(what.isClass(Bar) === false);
+                assert(what.isClass({}) === false);
             });
         }
     });
