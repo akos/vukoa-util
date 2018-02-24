@@ -63,7 +63,7 @@ util.toPinyin('测试数据'); //=> ce shi shu ju
 #### what.isNullOrUndefined();
 #### what.isNumber(num);
 #### what.isObject(obj);
-#### what.isPc();//base on navigator.userAgent
+#### what.isPC();//base on navigator.userAgent
 #### what.isPrimitive(prim);
 #### what.isReadableStream();
 #### what.isRegExp(reg);
