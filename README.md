@@ -1,5 +1,5 @@
 # vukoa-util
-The `util` module is improve more methods to check type for node, extend core-util-isfor node, extend core-util-is
+The `util` module is improve more methods to check type for node, extend core-util-is for node, extend core-util-is
 
 dependencies:
 
@@ -34,16 +34,15 @@ util.toPinyin('测试数据'); //=> ce shi shu ju
 #### util.pinyin();
 #### util.sleep();
 #### util.transferEmptyObjToNull();
-#### util.validate(params, rules)//用async-validator验证，返回promise
+#### util.validate(params, rules)//use async-validator，return promise
 
-
-### var what = util.isWhat;//判定类型
+#### var what = util.isWhat;
 #### what.isArray(arr);
 #### what.isAsyncFunction(async);
 #### what.isBoolean(bool);
-#### what.isBrowserType;//browser type 浏览器类型
+#### what.isBrowserType;//browser type 
 #### what.isBuffer(buffer);
-#### what.isCardID(ID);//身份证校验
+#### what.isCardID(ID);//identity card
 #### what.isClass(class);
 #### what.isDate(datetime);
 #### what.isDouble();
